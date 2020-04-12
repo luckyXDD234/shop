@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Tom's shop</h1>
+    <form method="POST" action="register.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="phone">Phone no.</label>
+            <input type="number" name="phone" id="phone" min=0 max=99999999 required>
+        </div>
+        <div>
+            Gender:
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min=0 max=200 required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@abc.com" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+    </form>
+    <button type="submit">Submit</button>
+
+
+</body>
+<Footer class="menu">
+    Tom's shop
+    <ul>
+        <li><a href='https://www.facebook.com'><img src="image/icon/fb.png" alt="Tom's shop facebook page"></a></li>
+        <li><a href='https://www.twitter.com'><img src="image/icon/twitter.png" alt="Tom's shop twitter page"></a></li>
+        <li><a href='#'></a></li>
+    </ul>
+</Footer>
+
+
+</html>
