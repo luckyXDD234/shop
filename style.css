@@ -24,7 +24,7 @@ nav.menu li, Footer.menu li{
 }
 
 .top-bar {
-	background-image: url("/image/bg/bg.jpg");
+	background-image: url("image/bg/bg.jpg");
 	background-size:cover;
 	padding : 10px;
 	width:100%;
