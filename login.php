@@ -20,7 +20,7 @@ if (mysqli_connect_error()){
     if (($row['email'] == $email) && ($row['password'] == $password)){
         echo "Login in success!"; 
     } else {
-        echo "Login in failed";
+        echo "Login in failed!";
     }
 
 
